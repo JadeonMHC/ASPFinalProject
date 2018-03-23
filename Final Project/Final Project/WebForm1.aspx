@@ -10,7 +10,7 @@
     
     <div id="SideBar">
         <div id="OptionsBar">
-            <h2>Options</h2>
+            <!--h2>Options</!--h2-->
             <h3>Line Style</h3>
             <p>
                 <input type="radio" name="lineStyle" id="solid" />

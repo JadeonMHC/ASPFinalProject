@@ -25,6 +25,8 @@
     font-size: 40px;
     background-color: #233343;
     color: white;
+
+    user-select: none;
 }
 
     #Head > .Circle {
