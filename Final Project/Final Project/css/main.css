@@ -1,0 +1,97 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: #233343;
+}
+
+#PageContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#Head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    font-family: 'Lobster';
+    font-size: 40px;
+    background-color: #233343;
+    color: white;
+}
+
+    #Head > .Circle {
+        width: 20px;
+        height: 20px;
+        margin-left: 40px;
+        margin-top: 5px;
+        border-radius: 100%;
+        background-color: white;
+    }
+
+        #Head > .Circle > .Circle {
+            width: 50%;
+            height: 50%;
+            margin-left: 35%;
+            margin-top: 35%;
+            border-radius: 100%;
+            background-color: #333;
+        }
+
+
+    #Head .Title {
+        color: white;
+        margin-left: 10px;
+    }
+
+#Body {
+    display: flex;
+    flex-direction: row;
+
+    flex: 2;
+}
+
+#MainMap {
+    flex: 2;
+}
+
+#SideBar {
+    width: 300px;
+    border-left: 1px solid #BBB;
+
+    background-color: #FCFCFC;
+}
+
+#SideBar > div {
+    width: 100%;
+
+    padding: 10px;
+
+    border-bottom: 1px solid #BBB;
+
+}
+
+#SideBar h2 {
+    font-family: 'Lobster';
+
+    margin-bottom: 5px;
+}
+
+#SideBar h3 {
+    font-family: 'Roboto Slab';
+    font-size: 16px;
+
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+#OptionsBar p {
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Final_Project.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Brother GPS Tracker</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/js/GMaps.js"></script>
+    <script src="/js/main.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="PageContainer">
+            <div id="Head">
+                <div class="Circle"><div class="Circle"></div></div>
+                <span class="Title">Brother</span>
+
+            </div>
+            <div id="Body">
+                <asp:ContentPlaceHolder ID="body" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
