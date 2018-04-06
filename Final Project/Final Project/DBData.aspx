@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DBData.aspx.cs" Inherits="Final_Project.DBData" %>

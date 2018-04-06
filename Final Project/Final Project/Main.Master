@@ -21,6 +21,12 @@
             <div id="Head">
                 <div class="Circle"><div class="Circle"></div></div>
                 <span class="Title">Brother</span>
+                <div class="Spacer"></div>
+                <div id="ButtonArea">
+                    <a href="index.aspx">Home</a>
+                    <a href="upload.aspx">Upload</a>
+                    <a href="help.aspx">Help</a>
+                </div>
 
             </div>
             <div id="Body">
