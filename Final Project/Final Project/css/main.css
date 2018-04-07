@@ -119,3 +119,15 @@
 .Spacer {
     flex: 2;
 }
+
+#DBList > div {
+    user-select: none;
+    box-sizing: border-box;
+
+    transition: padding-left 0.1s;
+}
+
+    #DBList > div:hover {
+        cursor: pointer;
+        padding-left: 5px;
+    }

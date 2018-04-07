@@ -1,1 +1,1 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DBData.aspx.cs" Inherits="Final_Project.DBData" %>
+﻿<%@ Page ContentType="application/json" Language="C#" CodeBehind="DBData.aspx.cs" Inherits="Final_Project.DBData" %>

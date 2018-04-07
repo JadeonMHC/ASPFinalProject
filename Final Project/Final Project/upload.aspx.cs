@@ -11,7 +11,7 @@ namespace Final_Project {
 
         protected void Page_Load(object sender, EventArgs e) {
             if (fileDB.HasFile) {
-                string path = MapPath("~/bin/dbs/");
+                string path = DBData.DBPath(this);
                 Directory.CreateDirectory(path);
 
                 path += fileDB.FileName;
