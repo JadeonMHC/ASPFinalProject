@@ -8,6 +8,11 @@
     color: #233343;
 }
 
+body {
+    font-family: Roboto Slab;
+    font-size: 14px;
+}
+
 #PageContainer {
     display: flex;
     flex-direction: column;
@@ -83,7 +88,7 @@
 }
 
 #SideBar {
-    width: 300px;
+    width: 500px;
     border-left: 1px solid #BBB;
 
     background-color: #FCFCFC;
@@ -112,6 +117,29 @@
     margin-bottom: 2px;
 }
 
+#SideBar h3:not(:first-child) {
+    margin-top: 15px;
+}
+
+#SideBar input[type="text"] {
+    width: 300px;
+    margin-left: 12px;
+
+    font-size: 15px;
+}
+
+#SideBar input[type="button"] {
+    width: 300px;
+    margin-left: 12px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    #SideBar input[type="button"]:hover {
+        cursor: pointer;
+    }
+
 #OptionsBar p {
     margin-left: 10px;
 }
@@ -120,14 +148,20 @@
     flex: 2;
 }
 
-#DBList > div {
+#pnlFiles > div {
     user-select: none;
     box-sizing: border-box;
+
+    margin-left: 12px;
 
     transition: padding-left 0.1s;
 }
 
-    #DBList > div:hover {
+    #pnlFiles > div:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    #pnlFiles > div:hover {
         cursor: pointer;
         padding-left: 5px;
     }

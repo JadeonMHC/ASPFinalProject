@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://localhost/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/">
+      <s:element name="GetCarPosition">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CarNum" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCarPositionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCarPositionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCarPositionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCarPosition" />
+  </wsdl:message>
+  <wsdl:message name="GetCarPositionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCarPositionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="GPS_DataSoap">
+    <wsdl:operation name="GetCarPosition">
+      <wsdl:input message="tns:GetCarPositionSoapIn" />
+      <wsdl:output message="tns:GetCarPositionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GPS_DataSoap" type="tns:GPS_DataSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCarPosition">
+      <soap:operation soapAction="http://localhost/GetCarPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GPS_DataSoap12" type="tns:GPS_DataSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCarPosition">
+      <soap12:operation soapAction="http://localhost/GetCarPosition" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GPS_Data">
+    <wsdl:port name="GPS_DataSoap" binding="tns:GPS_DataSoap">
+      <soap:address location="http://localhost:28183/GPS_Data.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GPS_DataSoap12" binding="tns:GPS_DataSoap12">
+      <soap12:address location="http://localhost:28183/GPS_Data.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -13,16 +13,26 @@
             <!--h2>Options</!--h2-->
             <h3>Line Style</h3>
             <p>
-                <input type="radio" name="lineStyle" id="solid" />
+                <input type="radio" name="lineStyle" value="solid" checked="checked" />
                 <label for="solid">Solid</label>
             </p>
             <p>
-                <input type="radio" name="lineStyle" id="dotted" />
-                <label for="dotted">Dotted</label>
+                <input type="radio" name="lineStyle" value="dashed" />
+                <label for="dashed">Dashed</label>
             </p>
         </div>
         <div id="DBList">
-
+            <h3>Live Data</h3>
+            <div>
+                <input type="text" id="txtLiveAddr" value="localhost" />
+            </div>
+            <div>
+                <input type="button" id="btnLive" value="Connect" />
+            </div>
+            <h3>Uploaded Files</h3>
+            <div id="pnlFiles"></div>
+            <h3>Current Data</h3>
+            <div id="txtCurr"></div>
         </div>
     </div>
 </asp:Content>

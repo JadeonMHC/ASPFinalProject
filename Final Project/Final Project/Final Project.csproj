@@ -51,6 +51,8 @@
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -72,6 +74,17 @@
     <Content Include="android-chrome-144x144.png" />
     <Content Include="apple-touch-icon.png" />
     <Content Include="browserconfig.xml" />
+    <Content Include="CarData.aspx" />
+    <Content Include="Connected Services\GPSData\Final_Project.GPSData.GetCarPositionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\GPSData\GPS_Data.disco" />
+    <None Include="Connected Services\GPSData\configuration91.svcinfo" />
+    <None Include="Connected Services\GPSData\configuration.svcinfo" />
+    <None Include="Connected Services\GPSData\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="css\upload.css" />
     <Content Include="DBData.aspx" />
     <Content Include="favicon-16x16.png" />
@@ -81,6 +94,7 @@
     <Content Include="mstile-150x150.png" />
     <Content Include="safari-pinned-tab.svg" />
     <Content Include="upload.aspx" />
+    <None Include="Connected Services\GPSData\GPS_Data.wsdl" />
     <None Include="packages.config" />
     <Content Include="site.webmanifest" />
     <None Include="Web.Debug.config">
@@ -100,6 +114,18 @@
     <Content Include="index.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarData.aspx.cs">
+      <DependentUpon>CarData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CarData.aspx.designer.cs">
+      <DependentUpon>CarData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\GPSData\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="DBData.aspx.cs">
       <DependentUpon>DBData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -129,6 +155,12 @@
     <Compile Include="upload.aspx.designer.cs">
       <DependentUpon>upload.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\GPSData\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
