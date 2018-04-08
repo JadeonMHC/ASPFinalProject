@@ -13,13 +13,20 @@ namespace Final_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            BasicHttpBinding bin = new BasicHttpBinding();
-            EndpointAddress address =
-               new EndpointAddress("http://localhost:28183/GPS_Data.asmx");
+            try
+            {
+                BasicHttpBinding bin = new BasicHttpBinding();
+                EndpointAddress address =
+                   new EndpointAddress("http://" + Request.Form["addr"] + "/GPS_Data.asmx");
 
-            GPSData.GPS_DataSoapClient client = new GPSData.GPS_DataSoapClient(bin, address);
+                GPSData.GPS_DataSoapClient client = new GPSData.GPS_DataSoapClient(bin, address);
 
-            Response.Write(client.GetCarPosition(int.Parse(Request.Form["car"])));
+                Response.Write(client.GetCarPosition(int.Parse(Request.Form["car"])));
+            }
+            catch (Exception)
+            {
+
+            }
         }
     }
 }

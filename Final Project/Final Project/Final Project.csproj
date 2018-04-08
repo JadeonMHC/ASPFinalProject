@@ -90,6 +90,7 @@
     <Content Include="favicon-16x16.png" />
     <Content Include="favicon-32x32.png" />
     <Content Include="favicon.ico" />
+    <Content Include="js\graph.js" />
     <Content Include="Main.Master" />
     <Content Include="mstile-150x150.png" />
     <Content Include="safari-pinned-tab.svg" />
