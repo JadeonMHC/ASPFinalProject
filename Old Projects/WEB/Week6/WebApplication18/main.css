@@ -1,0 +1,125 @@
+﻿@font-face {
+    font-family: MineCrafter;
+    src: url("fonts/Minecrafter.ttf");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 800px;
+}
+
+body {
+    background-image: url("img/dirt.png");
+    background-position-x: center;
+    font-family: MineCrafter;
+    font-variant: small-caps;
+}
+
+#Header {
+    background-image: url("img/grass.png");
+    background-position-x: center;
+    height: 40px;
+    width: 100vw;
+    min-width: 800px;
+}
+
+#Content {
+    display: flex;
+    align-items: center;
+    background-image: url("img/stone.png");
+    margin: auto;
+    width: 640px;
+    min-height: calc(100vh - 40px - 40px);
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.5);
+}
+
+#UserForm {
+    margin: auto;
+}
+
+    #UserForm > *:not(:last-child) {
+        margin-bottom: 48px;
+    }
+
+    #UserForm > * > *:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+.InputLabel {
+    display: block;
+    font-size: 16px;
+    height: 16px;
+    margin-bottom: 2px;
+    color: #EEE;
+    text-shadow: 0px 0px 6px 2px black;
+
+    margin-left: 8px;
+}
+
+#UserForm input {
+    width: 304px;
+    box-sizing: border-box;
+}
+
+    #UserForm input[type="text"], #UserForm input[type="password"] {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("img/cobble.png");
+        border: 8px solid rgba(35, 35, 35, 0.8);
+        font-family: MineCrafter;
+        font-variant: small-caps;
+        font-size: 30px;
+        height: 48px;
+        color: #EEE;
+        text-shadow: 1px 2px 2px 2px #666;
+        transition: border 0.1s;
+    }
+
+
+        #UserForm input[type="text"]:hover, #UserForm input[type="password"]:hover {
+            border: 8px solid rgba(75, 75, 75, 0.8);
+        }
+
+
+    #UserForm input[type="submit"] {
+        height: 64px;
+        border: none;
+        border: 4px solid rgba(0, 0, 0, 0.4);
+        box-shadow: inset 4px 4px 0px 0px rgba(255, 255, 255, 0.5);
+        border-collapse: separate;
+        background: url("img/stone.png");
+        font-family: MineCrafter;
+        font-size: 24px;
+        color: white;
+        text-shadow: 3px 3px black;
+        transition: box-shadow 0.15s, text-shadow 0.1s, font-size 0.1s;
+    }
+
+        #UserForm input[type="submit"]:hover {
+            cursor: pointer;
+            box-shadow: inset 4px 4px 0px 0px rgba(0, 0, 0, 0.2);
+            text-shadow: 2px 2px black;
+            font-size: 26px;
+        }
+
+.MessageArea {
+    display: block;
+    width: 304px;
+    word-break:break-word;
+    word-wrap:break-word;
+
+    text-align: center;
+
+    color: #F99;
+    text-shadow: 0 0 5px 5px #933;
+    
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    box-sizing: border-box;
+}
+
+.GTL {
+    margin-top: 20px;
+    text-align: right;
+}

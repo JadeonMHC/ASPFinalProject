@@ -1,0 +1,82 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(#999 0%, #999 40%, #AAA 60%, #AAA 100%);
+    background-size: 100vw, 20px;
+}
+
+#MasterHead {
+    text-align: center;
+    font-size: 25px;
+}
+
+#MasterMenu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #EEE;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:not(:last-child) {
+    margin-right: 10px;
+}
+
+#NestedHead img, #MasterImg img {
+    width: 100%;
+}
+
+#NestedMenu {
+    text-align: center;
+}
+
+#ContentBody img {
+    float: right;
+    margin: 10px;
+
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#form1 {
+    position: absolute;
+    left: 50vw;
+    margin-left: -300px;
+    width: 600px;
+    min-height: 100vh;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    font-family: Arial Black;
+    color: #CCC;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    padding-bottom: 60px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#Disclaimer {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-family: Arial;
+    font-size: 10px;
+    width: 500px;
+    color: #666;
+}

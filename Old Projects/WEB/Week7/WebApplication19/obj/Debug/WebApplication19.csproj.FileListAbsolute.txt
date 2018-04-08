@@ -1,0 +1,17 @@
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\bin\WebApplication19.dll.config
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\bin\WebApplication19.dll
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\bin\WebApplication19.pdb
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\obj\Debug\WebApplication19.csprojResolveAssemblyReference.cache
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\obj\Debug\WebApplication19.csproj.CoreCompileInputs.cache
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\obj\Debug\WebApplication19.dll
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication19\WebApplication19\obj\Debug\WebApplication19.pdb
+Z:\Semester 2\WEB\Subgurim\WebApplication19\bin\WebApplication19.dll.config
+Z:\Semester 2\WEB\Subgurim\WebApplication19\bin\WebApplication19.dll
+Z:\Semester 2\WEB\Subgurim\WebApplication19\bin\WebApplication19.pdb
+Z:\Semester 2\WEB\Subgurim\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Z:\Semester 2\WEB\Subgurim\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Z:\Semester 2\WEB\Subgurim\WebApplication19\obj\Debug\WebApplication19.csprojResolveAssemblyReference.cache
+Z:\Semester 2\WEB\Subgurim\WebApplication19\obj\Debug\WebApplication19.dll
+Z:\Semester 2\WEB\Subgurim\WebApplication19\obj\Debug\WebApplication19.pdb

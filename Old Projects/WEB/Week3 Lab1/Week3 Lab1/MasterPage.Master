@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Week3_Lab1.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="HorizDiv">
+            <div style="flex: 2;"></div>
+            <div class="VertDiv" style="width:900px;">
+                <div id="Header">
+                    <asp:Button ID="btnHusky" runat="server" Text="Husky" OnClick="btnHusky_Click" />
+                    <asp:Button ID="btnGoldendoodle" runat="server" Text="Goldendoodle" OnClick="btnGoldendoodle_Click" />
+                    <asp:Button ID="btnSharpei" runat="server" Text="Shar Pei" OnClick="btnSharpei_Click" />
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <div>*All content blantantly stolen from Wikipedia</div>
+            </div>
+            <div style="flex: 2;"></div>
+        </div>
+    </form>
+</body>
+</html>

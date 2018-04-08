@@ -1,0 +1,119 @@
+C:\Users\Jadeon\Documents\Week10\Week10\bin\Week10.dll.config
+C:\Users\Jadeon\Documents\Week10\Week10\bin\Week10.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\Week10.pdb
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\csc.exe
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\csc.exe.config
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\csc.rsp
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\csi.exe
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\csi.exe.config
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\csi.rsp
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.AppContext.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Console.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.IO.Compression.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Security.Claims.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.ValueTuple.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\vbc.exe
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\vbc.exe.config
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\vbc.rsp
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jadeon\Documents\Week10\Week10\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jadeon\Documents\Week10\Week10\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jadeon\Documents\Week10\Week10\obj\Debug\Week10.csprojResolveAssemblyReference.cache
+C:\Users\Jadeon\Documents\Week10\Week10\obj\Debug\Week10.csproj.CoreCompileInputs.cache
+C:\Users\Jadeon\Documents\Week10\Week10\obj\Debug\Week10.csproj.CopyComplete
+C:\Users\Jadeon\Documents\Week10\Week10\obj\Debug\Week10.dll
+C:\Users\Jadeon\Documents\Week10\Week10\obj\Debug\Week10.pdb
+C:\Users\Jadeon\Documents\Week10\Week10\bin\Newtonsoft.Json.dll
+C:\Users\Jadeon\Documents\Week10\Week10\bin\Newtonsoft.Json.xml
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\Week10.dll.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\Week10.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\Week10.pdb
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\csc.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\csc.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\csc.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\csi.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\csi.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\csi.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.CSharp.Core.targets
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.VisualBasic.Core.targets
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\Microsoft.Win32.Primitives.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.AppContext.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Collections.Immutable.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Console.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Diagnostics.Process.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Diagnostics.StackTrace.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.IO.Compression.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.IO.FileSystem.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.IO.FileSystem.Primitives.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.IO.Pipes.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Reflection.Metadata.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Security.AccessControl.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Security.Claims.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Security.Cryptography.Encoding.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Security.Cryptography.Primitives.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Security.Principal.Windows.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Text.Encoding.CodePages.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Threading.Thread.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.ValueTuple.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Xml.ReaderWriter.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Xml.XmlDocument.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Xml.XPath.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\System.Xml.XPath.XDocument.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\vbc.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\vbc.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\vbc.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\VBCSCompiler.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\roslyn\VBCSCompiler.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\Newtonsoft.Json.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\bin\Newtonsoft.Json.xml
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\obj\Debug\Week10.csprojResolveAssemblyReference.cache
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\obj\Debug\Week10.csproj.CoreCompileInputs.cache
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\obj\Debug\Week10.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week10\Week10\obj\Debug\Week10.pdb

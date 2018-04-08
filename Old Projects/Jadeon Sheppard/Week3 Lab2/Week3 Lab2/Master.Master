@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Week3_Lab2.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="MasterHead">Cool Things</div>
+        <div id="MasterImg">
+            <img src="/img/Banner.jpg" />
+        </div>
+        <div id="MasterMenu">
+            <asp:HyperLink ID="lnkMusic" runat="server" NavigateUrl="~/N1/banjo.aspx">Musical Instruments</asp:HyperLink>
+            <asp:HyperLink ID="lnkWater" runat="server" NavigateUrl="~/N2/surfing.aspx">Water Sports</asp:HyperLink>
+            <asp:HyperLink ID="lnkCutlery" runat="server" NavigateUrl="~/N3/forks.aspx">Cutlery</asp:HyperLink>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="Disclaimer">
+            *Some or all content on this page was taken directly from Wikipedia, Google Images, Jadeon's Facebook, or under Steve's pillow.
+        </div>
+    </form>
+</body>
+</html>

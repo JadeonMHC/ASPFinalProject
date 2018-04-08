@@ -1,0 +1,52 @@
+﻿/* BATMAN */
+
+body {
+    background: black;
+}
+
+@keyframes FormAnim {
+      0% {transform: rotate(-10deg);}
+     50% {transform: rotate( 10deg);}
+    100% {transform: rotate(-10deg);}
+}
+
+#MainForm {
+    animation-name: FormAnim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /*transform: rotate(5deg);*/
+}
+
+.CalcButton {
+    background: #ffdc08;
+}
+
+
+#txtInput:hover {
+    transform: scale(2) rotateX(360deg) translateY(-30px);
+}
+
+.CalcButton:hover {
+    cursor: pointer;
+    transform: rotate(-365deg) scale(1.5);
+}
+
+@keyframes Light {
+    0% {
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 0.0;
+    }
+}
+
+img {
+    animation-name: Light;
+    animation-duration: 6.141s;
+    animation-iteration-count: infinite;
+}

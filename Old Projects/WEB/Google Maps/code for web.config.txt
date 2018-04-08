@@ -1,0 +1,21 @@
+  <appSettings>
+    <add key="googlemaps.subgurim.net" value="AIzaSyDuMXVjYyPn01Vw7mBF2cphHkqIMXzDl5Q"/>  
+  </appSettings>
+
+
+
+The above code goes into the web.config like this
+
+<configuration>
+ 
+  <system.web>
+      <compilation debug="true" targetFramework="4.5" />
+      <httpRuntime targetFramework="4.5" />
+  </system.web>
+  
+  <appSettings>
+    <add key="googlemaps.subgurim.net" value="AIzaSyDuMXVjYyPn01Vw7mBF2cphHkqIMXzDl5Q"/>
+  </appSettings>
+
+
+</configuration>

@@ -1,0 +1,19 @@
+﻿body {
+    background-color: #605b00;
+}
+
+.ProductImage img {
+    border-color: #fffbae;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+
+    font-family: Arial Black;
+}

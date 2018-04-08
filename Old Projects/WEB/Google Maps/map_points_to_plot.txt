@@ -1,0 +1,45 @@
+PART 1: Plot these data points
+
+50.0094,-110.6534
+50.0090,-110.6540
+50.0076,-110.6529
+50.0065,-110.6540
+50.0067,-110.6560
+50.0076,-110.6570
+50.0090,-110.6567
+50.0097,-110.6567
+
+
+PART 2: Convert raw data and plot
+
+5000.8154,N,11039.2593,W
+5000.9567,N,11039.4332,W
+5001.1218,N,11039.6425,W
+5001.3636,N,11039.9991,W
+5001.8286,N,11040.1426,W
+5002.1022,N,11040.1415,W
+5002.4679,N,11040.4419,W
+5002.4067,N,11040.6739,W
+
+Create a function that converts the above, raw GPS data into the Lat/Long that we need for subgurim
+The data above is programmed in degrees+minutes with fractional minutes.  This means the value 5000.8154 
+would be converted to 50 + (00.8154/60) = 50.01359  (the value 60 comes from 60 minutes in a degree)
+Likewise, 11039.2593 will become 110 + (39.2593/60) = 110.65432167
+Note: The "N" after the first number means North and means the value will be plus (northern hemi)
+If the letter is "S" then you must change the 50.01359 answer to -50.01359 
+Likewise, the "W" means Western and you must apply a negative value, meaning 110.65432167 -> -110.65432167
+If it was "E" the value would be positive
+
+Make sure you test all forms of this value
+49,110 takes you to North Eastern Mongolia
+-33,116 takes you to South Western Australia
+-50,-70 takes you to southern Argentina
+
+For more information on GPS data, google $GPRMC for pages such as 
+http://www.codepedia.com/1/The+GPRMC+Sentence
+and 
+http://aprs.gids.nl/nmea/#rmc
+
+
+Subgurim.Controles.GLatLng LL = new Subgurim.Controles.GLatLng(50, -110.3);
+GMap1.setCenter(LL, 8);

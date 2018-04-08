@@ -1,0 +1,11 @@
+﻿body {
+    background-color: #fffbae;
+}
+
+.ProductImage img {
+    border-color: #605b00;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

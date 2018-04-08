@@ -1,0 +1,9 @@
+﻿body {
+    background-image: url(/SummerBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    font-family: Georgia !important;
+    font-size: 20px;
+}

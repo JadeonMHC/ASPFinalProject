@@ -1,0 +1,31 @@
+﻿html, body {
+
+}
+
+
+.VertDiv {
+    display: flex;
+    flex-direction: column;
+    background: red;
+}
+
+.HorizDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+#Header {
+    display: flex;
+    flex-direction: row;
+}
+
+#Header > * {
+    flex: 2;
+    transition: transform 0.1s;
+}
+
+#Header > *:hover {
+    transform: scale(1.2);
+}
+
+

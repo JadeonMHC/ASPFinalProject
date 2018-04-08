@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Week3_Lab1.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="position: fixed; top: 0px; right: 0px; background-color: rgba(255, 255, 255, 0.6); box-shadow: 0px 0px 10px 0px white; font-family: 'Arial Black'; color: #999; padding: 5px; margin: 5px;">
+            Theme: <asp:Button ID="btnTheme" runat="server" Text="Winter Theme" OnClick="btnTheme_Click" />
+        </div>
+        <div class="HorizDiv">
+            <div style="flex: 2;"></div>
+            <div class="VertDiv" style="width:700px;">
+                <div id="Header">
+                    <asp:Button ID="btnHusky" runat="server" Text="Husky" OnClick="btnHusky_Click" />
+                    <asp:Button ID="btnGoldendoodle" runat="server" Text="Goldendoodle" OnClick="btnGoldendoodle_Click" />
+                    <asp:Button ID="btnSharpei" runat="server" Text="Shar Pei" OnClick="btnSharpei_Click" />
+                </div>
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <div id="footer">*All content blantantly stolen from Wikipedia</div>
+                </div>
+            </div>
+            <div style="flex: 2;"></div>
+        </div>
+    </form>
+</body>
+</html>

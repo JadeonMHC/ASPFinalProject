@@ -1,0 +1,27 @@
+﻿body {
+    font-family: Arial Black;
+}
+
+#InputContainer {
+
+}
+
+#InputContainer > * {
+
+}
+
+#InputContainer > *:not(:last-child){
+    margin-bottom:10px;
+}
+
+.InputLabel {
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+input[type=text] {
+    flex: 2;
+    font-family: Arial Black;
+}

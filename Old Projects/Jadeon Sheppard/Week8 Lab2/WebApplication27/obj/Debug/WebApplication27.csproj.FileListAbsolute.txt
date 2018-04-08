@@ -1,0 +1,17 @@
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\bin\WebApplication27.dll.config
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\bin\WebApplication27.dll
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\bin\WebApplication27.pdb
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\obj\Debug\WebApplication27.csprojResolveAssemblyReference.cache
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\obj\Debug\WebApplication27.csproj.CoreCompileInputs.cache
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\obj\Debug\WebApplication27.dll
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication27\WebApplication27\obj\Debug\WebApplication27.pdb
+C:\Users\jadeon.sheppard\Desktop\web service calling program\WebApplication27\bin\WebApplication27.dll.config
+C:\Users\jadeon.sheppard\Desktop\web service calling program\WebApplication27\bin\WebApplication27.dll
+C:\Users\jadeon.sheppard\Desktop\web service calling program\WebApplication27\bin\WebApplication27.pdb
+C:\Users\jadeon.sheppard\Desktop\web service calling program\WebApplication27\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jadeon.sheppard\Desktop\web service calling program\WebApplication27\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jadeon.sheppard\Desktop\web service calling program\WebApplication27\obj\Debug\WebApplication27.csprojResolveAssemblyReference.cache
+C:\Users\jadeon.sheppard\Desktop\web service calling program\WebApplication27\obj\Debug\WebApplication27.dll
+C:\Users\jadeon.sheppard\Desktop\web service calling program\WebApplication27\obj\Debug\WebApplication27.pdb

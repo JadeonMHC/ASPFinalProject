@@ -1,0 +1,17 @@
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\bin\WebApplication26.dll.config
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\bin\WebApplication26.dll
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\bin\WebApplication26.pdb
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\obj\Debug\WebApplication26.csprojResolveAssemblyReference.cache
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\obj\Debug\WebApplication26.csproj.CoreCompileInputs.cache
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\obj\Debug\WebApplication26.dll
+C:\Users\sletkeman\Documents\Visual Studio 2017\Projects\WebApplication26\WebApplication26\obj\Debug\WebApplication26.pdb
+C:\Users\jadeon.sheppard\Desktop\web service\WebApplication26\bin\WebApplication26.dll.config
+C:\Users\jadeon.sheppard\Desktop\web service\WebApplication26\bin\WebApplication26.dll
+C:\Users\jadeon.sheppard\Desktop\web service\WebApplication26\bin\WebApplication26.pdb
+C:\Users\jadeon.sheppard\Desktop\web service\WebApplication26\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jadeon.sheppard\Desktop\web service\WebApplication26\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jadeon.sheppard\Desktop\web service\WebApplication26\obj\Debug\WebApplication26.csprojResolveAssemblyReference.cache
+C:\Users\jadeon.sheppard\Desktop\web service\WebApplication26\obj\Debug\WebApplication26.dll
+C:\Users\jadeon.sheppard\Desktop\web service\WebApplication26\obj\Debug\WebApplication26.pdb

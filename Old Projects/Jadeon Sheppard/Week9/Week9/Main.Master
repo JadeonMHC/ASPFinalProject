@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Week9.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+       
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+    <script src="main.js"></script>
+
+    <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Header">
+            <div><a href="AlwaysVisible.aspx">Always Visible</a></div>
+            <div><a href="Accordian.aspx">Accordian</a></div>
+            <div><a href="Slideshow.aspx">Slideshow</a></div>
+
+            <div class="Fill"></div>
+
+            <div id="Timer">
+                <span></span>
+            </div>
+
+            <div class="Fill"></div>
+
+        </div>
+
+        <asp:ContentPlaceHolder ID="Content" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

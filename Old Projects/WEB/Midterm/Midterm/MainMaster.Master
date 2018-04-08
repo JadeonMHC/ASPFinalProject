@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="Midterm.MainMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="generic.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1000px;
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="Header">
+                <div>
+                    <img src="/img/Header.png" style="height: 193px; width: 565px" />
+                    <asp:Button ID="btnTheme" runat="server" Text="Button" OnClick="btnTheme_Click" />
+                </div>
+                <div id="NavArea">
+                    <a href="ProductFinder.aspx">Product Finder</a>
+                    <div class="Gap"></div>
+                    <a href="Cotija.aspx">Cotija</a>
+                    <a href="Roquefort.aspx">Roquefort</a>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

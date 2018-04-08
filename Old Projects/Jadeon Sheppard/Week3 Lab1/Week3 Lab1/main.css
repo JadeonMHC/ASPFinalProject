@@ -1,0 +1,66 @@
+﻿html, body {
+    min-width: 100vw;
+    min-height: 100vh;
+    
+    margin: 0;
+    padding: 0;
+}
+
+#form1 {
+    min-height: 100vh;
+}
+
+.VertDiv {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    background: rgba(0, 0, 0, 0.75);
+    color: #EEE;
+
+    min-height: 100vh;
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+.HorizDiv {
+    display: flex;
+    flex-direction: row;
+
+    min-height: 100vh;
+
+    box-sizing: border-box;
+}
+
+#Header {
+    display: flex;
+    flex-direction: row;
+}
+
+#Header > * {
+    flex: 2;
+    transition: transform 0.1s;
+}
+
+#Header > *:hover {
+    transform: scale(1.2);
+}
+
+#footer {
+    position:absolute;
+    bottom: 0px;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+img {
+    height: 200px;
+    float: right;
+
+    margin: 10px;
+}

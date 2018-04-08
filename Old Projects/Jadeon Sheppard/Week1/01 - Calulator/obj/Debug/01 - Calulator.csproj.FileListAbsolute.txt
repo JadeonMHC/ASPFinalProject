@@ -1,0 +1,104 @@
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\csc.exe
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\csc.exe.config
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\csc.rsp
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\csi.exe
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\csi.rsp
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CSharp.Core.targets
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\System.AppContext.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\System.Collections.Immutable.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\System.Diagnostics.StackTrace.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\System.IO.FileSystem.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\System.Reflection.Metadata.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\vbc.exe
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\vbc.exe.config
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\vbc.rsp
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\VBCSCompiler.exe
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\roslyn\VBCSCompiler.exe.config
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\01 - Calulator.dll.config
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\01 - Calulator.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\01 - Calulator.pdb
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.csprojResolveAssemblyReference.cache
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.dll
+Z:\Semester 2\WEB\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.pdb
+E:\01 - Calulator\01 - Calulator\bin\roslyn\csc.exe
+E:\01 - Calulator\01 - Calulator\bin\roslyn\csc.exe.config
+E:\01 - Calulator\01 - Calulator\bin\roslyn\csc.rsp
+E:\01 - Calulator\01 - Calulator\bin\roslyn\csi.exe
+E:\01 - Calulator\01 - Calulator\bin\roslyn\csi.rsp
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\01 - Calulator\01 - Calulator\bin\roslyn\System.AppContext.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\System.Collections.Immutable.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\System.IO.FileSystem.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\System.Reflection.Metadata.dll
+E:\01 - Calulator\01 - Calulator\bin\roslyn\vbc.exe
+E:\01 - Calulator\01 - Calulator\bin\roslyn\vbc.exe.config
+E:\01 - Calulator\01 - Calulator\bin\roslyn\vbc.rsp
+E:\01 - Calulator\01 - Calulator\bin\roslyn\VBCSCompiler.exe
+E:\01 - Calulator\01 - Calulator\bin\roslyn\VBCSCompiler.exe.config
+E:\01 - Calulator\01 - Calulator\bin\01 - Calulator.dll.config
+E:\01 - Calulator\01 - Calulator\bin\01 - Calulator.dll
+E:\01 - Calulator\01 - Calulator\bin\01 - Calulator.pdb
+E:\01 - Calulator\01 - Calulator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\01 - Calulator\01 - Calulator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.csprojResolveAssemblyReference.cache
+E:\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.csproj.CoreCompileInputs.cache
+E:\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.dll
+E:\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.pdb
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\csc.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\csc.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\csc.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\csi.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\csi.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.CSharp.Core.targets
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\System.AppContext.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\System.Collections.Immutable.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\System.Diagnostics.StackTrace.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\System.IO.FileSystem.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\System.IO.FileSystem.Primitives.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\System.Reflection.Metadata.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\vbc.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\vbc.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\vbc.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\VBCSCompiler.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\roslyn\VBCSCompiler.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\01 - Calulator.dll.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\01 - Calulator.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\01 - Calulator.pdb
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.csprojResolveAssemblyReference.cache
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.csproj.CoreCompileInputs.cache
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\01 - Calulator\01 - Calulator\obj\Debug\01 - Calulator.pdb

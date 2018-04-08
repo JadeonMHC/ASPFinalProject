@@ -1,0 +1,32 @@
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\obj\Debug\WebApplication18.csprojResolveAssemblyReference.cache
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\obj\Debug\WebApplication18.csproj.CoreCompileInputs.cache
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\bin\WebApplication18.dll.config
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\bin\WebApplication18.dll
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\bin\WebApplication18.pdb
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\obj\Debug\WebApplication18.dll
+c:\users\sletkeman\documents\visual studio 2017\Projects\WebApplication18\WebApplication18\obj\Debug\WebApplication18.pdb
+Z:\Semester 2\WEB\shopping cart\WebApplication18\bin\WebApplication18.dll.config
+Z:\Semester 2\WEB\shopping cart\WebApplication18\bin\WebApplication18.dll
+Z:\Semester 2\WEB\shopping cart\WebApplication18\bin\WebApplication18.pdb
+Z:\Semester 2\WEB\shopping cart\WebApplication18\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Z:\Semester 2\WEB\shopping cart\WebApplication18\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Z:\Semester 2\WEB\shopping cart\WebApplication18\obj\Debug\WebApplication18.csprojResolveAssemblyReference.cache
+Z:\Semester 2\WEB\shopping cart\WebApplication18\obj\Debug\WebApplication18.dll
+Z:\Semester 2\WEB\shopping cart\WebApplication18\obj\Debug\WebApplication18.pdb
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\WebApplication18.dll.config
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\WebApplication18.dll
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\WebApplication18.pdb
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Z:\Semester 2\WEB\Week6\WebApplication18\obj\Debug\WebApplication18.csprojResolveAssemblyReference.cache
+Z:\Semester 2\WEB\Week6\WebApplication18\obj\Debug\WebApplication18.dll
+Z:\Semester 2\WEB\Week6\WebApplication18\obj\Debug\WebApplication18.pdb
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\img\body.jpg
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\img\dirt.png
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\img\grass.png
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\img\stone.png
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\img\cobble.png
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\img\emerald.png
+Z:\Semester 2\WEB\Week6\WebApplication18\bin\img\obsidian.png

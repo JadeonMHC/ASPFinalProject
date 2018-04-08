@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Nested3.master.cs" Inherits="Week3_Lab2.N3.Nested3" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="NestedHead">
+        <img src="/img/Cutlery.jpg" />
+    </div>
+    <div id="NestedMenu">
+        <asp:HyperLink ID="lnkForks" runat="server" NavigateUrl="~/N3/forks.aspx">Forx</asp:HyperLink>
+        <asp:HyperLink ID="lnkCups" runat="server" NavigateUrl="~/N3/cups.aspx">Cups</asp:HyperLink>
+        <asp:HyperLink ID="lnkPlates" runat="server" NavigateUrl="~/N3/plates.aspx">Broken Plates</asp:HyperLink>
+    </div>
+    <asp:ContentPlaceHolder ID="BodyPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,10 @@
+﻿body {
+    background-image: url(/SnowBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+
+    font-family: 'Arial Black' !important;
+    font-size: 15px;
+}

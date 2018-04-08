@@ -1,0 +1,114 @@
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.exe
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.exe.config
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.rsp
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\csi.exe
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\csi.rsp
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CSharp.Core.targets
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\System.AppContext.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Collections.Immutable.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Diagnostics.StackTrace.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\System.IO.FileSystem.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Reflection.Metadata.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.exe
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.exe.config
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.rsp
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\VBCSCompiler.exe
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\roslyn\VBCSCompiler.exe.config
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.dll.config
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.pdb
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.csprojResolveAssemblyReference.cache
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.dll
+Z:\Semester 2\WEB\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.pdb
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.exe
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.exe.config
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.rsp
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\csi.exe
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\csi.rsp
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\System.AppContext.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Collections.Immutable.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\System.IO.FileSystem.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Reflection.Metadata.dll
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.exe
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.exe.config
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.rsp
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\VBCSCompiler.exe
+E:\Week3 Lab1\Week3 Lab1\bin\roslyn\VBCSCompiler.exe.config
+E:\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.dll.config
+E:\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.dll
+E:\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.pdb
+E:\Week3 Lab1\Week3 Lab1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Week3 Lab1\Week3 Lab1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.csprojResolveAssemblyReference.cache
+E:\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.csproj.CoreCompileInputs.cache
+E:\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.dll
+E:\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.pdb
+E:\Week3 Lab1\Week3 Lab1\bin\SnowBG.jpg
+E:\Week3 Lab1\Week3 Lab1\bin\SummerBG.jpg
+E:\Week3 Lab1\Week3 Lab1\bin\Goldendoodle.jpg
+E:\Week3 Lab1\Week3 Lab1\bin\Husky.jpg
+E:\Week3 Lab1\Week3 Lab1\bin\Sharpei.jpg
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\csc.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\csi.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\csi.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.CSharp.Core.targets
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\System.AppContext.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Collections.Immutable.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Diagnostics.StackTrace.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\System.IO.FileSystem.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\System.Reflection.Metadata.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\vbc.rsp
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\VBCSCompiler.exe
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\roslyn\VBCSCompiler.exe.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\Goldendoodle.jpg
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\Husky.jpg
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\Sharpei.jpg
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\SnowBG.jpg
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\SummerBG.jpg
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.dll.config
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\Week3 Lab1.pdb
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.csprojResolveAssemblyReference.cache
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.dll
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.pdb
+V:\Steve\Prog 245\incoming assignments\Jadeon Sheppard\Week3 Lab1\Week3 Lab1\obj\Debug\Week3 Lab1.csproj.CoreCompileInputs.cache

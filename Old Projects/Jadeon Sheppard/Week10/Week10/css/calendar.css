@@ -1,0 +1,37 @@
+﻿#MainCalendar {
+    flex: 2;
+    width: 100vw;
+    height: 100vh;
+}
+
+    #MainCalendar .Title {
+        font-size: 25px;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+    #MainCalendar .day {
+        position: relative;
+    }
+
+    #MainCalendar .selected {
+        border-radius: 2px;
+        box-shadow: inset 0px 0px 0px 2px #9accff;
+    }
+
+    #MainCalendar .notmonth {
+        background-color: #DDD;
+    }
+
+    #MainCalendar .today a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        font-size: 12px;
+        color: white;
+        background-color: #007fff;
+        font-weight: bolder;
+    }

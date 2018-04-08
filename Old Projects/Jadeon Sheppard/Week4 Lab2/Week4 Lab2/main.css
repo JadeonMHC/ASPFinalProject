@@ -1,0 +1,148 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+#Holder {
+    background: white;
+    width: 700px;
+    margin: auto;
+    min-height: 100vh;
+    border: 15px solid #ffe24d;
+    border-top: none;
+    border-bottom: none;
+}
+
+#Banner {
+    text-align: center;
+}
+
+#Buttons a {
+    font-family: Arial Black;
+    text-decoration: none;
+    color: #666;
+
+    transition: color 0.05s;
+}
+
+#Buttons a:hover {
+    color: #ffe24d;
+}
+
+#Buttons a:not(:last-of-type){
+    margin-right: 20px;
+}
+
+@keyframes REDALERT {
+    0% {
+        background-color: #BBB;
+
+    }
+    50% {
+        background-color: #F00;
+    }
+    100% {
+        background-color: #BBB;
+    }
+}
+
+#RealMissile {
+    width: calc(100% - 20px);
+    height:200px;
+
+    margin: 10px;
+
+    animation: REDALERT 4s;
+    animation-iteration-count: infinite;
+
+    font-family: Arial Black;
+    font-size: 50px;
+    border-radius: 10px;
+
+    color: white;
+}
+
+@keyframes BlinkerAnim {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    51% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 0.0;
+    }
+}
+
+.Blinker1, .Blinker2 {
+    transform: scale(1.8);
+    margin: 20px;
+
+    animation: BlinkerAnim 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.Blinker2 {
+    animation-delay: -0.25s;
+}
+
+#RealMissile, #FakeMissile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#RealMissile:hover, #FakeMissile:hover {
+    cursor: pointer;
+}
+
+#FakeMissile {
+    width: 70px;
+    height: 20px;
+
+    font-family: Arial Black;
+    font-size: 12px;
+
+    background-color: white;
+    border: 2px solid #666;
+    color: #666;
+    border-radius: 5px;
+
+    position: relative;
+    top: 60px;
+    left: 250px;
+    z-index: 100;
+
+    transition: transform 0.3s;
+}
+
+#FakeMissile:hover {
+    transform: translate(90px, 40px) scale(0.5) rotate(53deg);
+}
+
+.CarSec img {
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+}
+
+.CarSec:nth-last-of-type(2n + 1) img {
+    float:right;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.CarSec {
+    padding: 20px;
+}
+
+.CarSec:not(:last-of-type){
+    margin-bottom: 20px;
+}

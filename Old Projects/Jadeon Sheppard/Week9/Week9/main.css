@@ -1,0 +1,185 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    padding-top: 40px;
+
+    font-family: Arial Black;
+}
+
+#Header {
+    position: fixed;
+    top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: 100%;
+    height: 70px;
+
+    background-color: white;
+
+    box-shadow: 0px 2px 10px rgba(100, 100, 100, 0.5);
+
+    font-family: Arial;
+    font-weight: bold;
+}
+
+    #Header a {
+        color: #777;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        font-size: 16px;
+    }
+
+        #Header a:hover {
+            cursor: pointer;
+        }
+
+        .Fill {
+            flex: 2;
+        }
+
+#Timer {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    width: 300px;
+    left: 50vw;
+    margin-left: -150px;
+    height: 40px;
+    border: 2px solid #777;
+    color: #777;
+    font-size: 16px;
+}
+
+    #Timer > span {
+        margin: auto;
+    }
+
+h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+p:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.Accordian {
+}
+
+    .Accordian .Title {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background: #999;
+        height: 40px;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+        text-align: center;
+        color: #EEE;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+        .Accordian .Title:hover {
+            cursor: pointer;
+        }
+
+    .Accordian .Slice {
+        height: 0px;
+
+        padding-left: 40px;
+        padding-right: 40px;
+
+        overflow-y: auto;
+        border-bottom: 4px solid #666;
+    }
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Slideshow {
+    position: relative;
+    box-sizing: border-box;
+
+    width: 700px;
+    height: 550px;
+
+    margin: auto;
+    padding: 40px;
+
+    border: 1px solid red;
+}
+
+.Slideshow .Controls {
+    position: absolute;
+    bottom: 0px;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.Slideshow .Controls * {
+    margin: 0;
+    padding: 0;
+}
+
+    .Slideshow .Controls > div {
+        display: inline-flex;
+        flex-direction: row;
+
+        padding: 5px;
+        padding-bottom: 10px;
+
+        background: #777;
+        border-radius: 8px 8px 0 0;
+
+        opacity: 0.5;
+    }
+
+
+
+    .Slideshow .Controls .Button {
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }

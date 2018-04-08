@@ -1,0 +1,71 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#btnTheme {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.ProductImage img {
+    width: 300px;
+
+    border-style: solid;
+    border-width: 10px;
+}
+
+.ProductImage {
+    display: inline-block;
+    float: left;
+
+    margin: 20px;
+}
+
+.Title {
+    text-align: center;
+}
+
+h1 {
+    font-family: Cooper;
+}
+
+p {
+    text-indent: 20px;
+}
+
+#NavArea a, #NavArea {
+    font-family: Cooper;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #3B3800;
+
+    text-decoration: none;
+}
+
+#NavArea a:hover {
+    text-decoration: underline;
+}
+
+    #NavArea .Gap {
+        display: inline-block;
+        height: 25px;
+        border-left: solid 2px #3B3800;
+        margin-bottom: -5px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+.ProductFinderBox {
+    background-color: #DDD;
+
+    width: 800px;
+    min-height: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
