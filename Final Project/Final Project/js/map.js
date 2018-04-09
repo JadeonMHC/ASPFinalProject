@@ -7,7 +7,7 @@ function initMap() {
         lng: -110.686609
     });
 
-    //console.log(Object.keys(map));
+    console.log(Object.keys(map));
 }
 
 function DrawPath(map, path, dash) {

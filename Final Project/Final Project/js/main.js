@@ -4,6 +4,8 @@ var liveaddr = null;
 var livetimer = null;
 var adb;
 
+var currmar;
+
 $(document).ready(function () {
     GetDBNames();
 
@@ -60,7 +62,22 @@ $(document).ready(function () {
             x -= 0.15 * 0.5;
             x /= 0.85;
 
-            console.log(x);
+            x = Math.min(1.0, Math.max(x, 0.0));
+
+            var tt = adb.points.length - 1;
+            tt *= x;
+            tt = Math.floor(tt);
+
+            map.removeMarker(currmar);
+
+            currmar = map.addMarker({
+                lat: adb.points[tt][0],
+                lng: adb.points[tt][1],
+                title: '',
+                click: function (e) { }
+            });
+
+            
         }
     });
 
@@ -73,6 +90,8 @@ $(document).ready(function () {
         ct = gphcan[0].getContext("2d");
         ct.clearRect(0, 0, gphcan.width(), gphcan.height());
 
+        $("#gphLabel").css('display', 'none');
+
         if (livetimer == null) {
             $("#btnLive").val("Disconnect");
             liveaddr = $("#txtLiveAddr").val();
@@ -83,14 +102,38 @@ $(document).ready(function () {
             livetimer = setInterval(function () {
                 $.post('/CarData.aspx', { addr: liveaddr, car: 2 }, function (data) {
                     var sp = data.split(',');
+                    const fn = 5;
 
-                    $("#txtCurr").html('<div>' + sp[0] + '</div><div>' + parseFloat(sp[1]) + '</div><div>' + parseFloat(sp[2]) + '</div>');
+                    $("#txtCurr").html(
+                        '<div style="margin-left: 11px; font-size: 11px;">' + sp[0] + ' ' + vv(sp[1]) + ' ' + vv(sp[2]) + '</div>' +
+                        '<div style="margin-left: 11px; font-size: 11px;">' + sp[3] + ' ' + vv(sp[4]) + ' ' + vv(sp[5]) + '</div>' +
+                        '<div style="margin-left: 11px; font-size: 11px;">' + sp[6] + ' ' + vv(sp[7]) + ' ' + vv(sp[8]) + '</div>'
+                    );
+
+                    function vv(f) {
+                        var v = parseFloat(f);
+                        return v.toFixed(fn);
+                    }
                     
                     map.removeMarkers();
                     map.addMarker({
                         lat: parseFloat(sp[1]),
                         lng: parseFloat(sp[2]),
-                        title: 'Starting Location',
+                        icon: '/img/PinBike.png',
+                        click: function (e) { }
+                    });
+
+                    map.addMarker({
+                        lat: parseFloat(sp[4]),
+                        lng: parseFloat(sp[5]),
+                        icon: '/img/PinTruck.png',
+                        click: function (e) { }
+                    });
+
+                    map.addMarker({
+                        lat: parseFloat(sp[7]),
+                        lng: parseFloat(sp[8]),
+                        icon: '/img/PinCorv.png',
                         click: function (e) { }
                     });
                 });
@@ -151,6 +194,8 @@ function DBSelected() {
         };
 
         var raw = [];
+
+        $("#gphLabel").css('display', 'inherit');
 
         data.forEach(function (item) {
             if (item[2].startsWith('$GPRMC')) {

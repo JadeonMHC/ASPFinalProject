@@ -21,7 +21,7 @@ namespace Final_Project
 
                 GPSData.GPS_DataSoapClient client = new GPSData.GPS_DataSoapClient(bin, address);
 
-                Response.Write(client.GetCarPosition(int.Parse(Request.Form["car"])));
+                Response.Write(client.GetCarPosition(1) + "," + client.GetCarPosition(2) + "," + client.GetCarPosition(3));
             }
             catch (Exception)
             {

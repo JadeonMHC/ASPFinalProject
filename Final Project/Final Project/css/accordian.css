@@ -1,0 +1,41 @@
+﻿.Accordian {
+}
+
+    .Accordian .Title {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background: #999;
+        height: 40px;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+        text-align: center;
+        color: #EEE;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+        .Accordian .Title:hover {
+            cursor: pointer;
+        }
+
+    .Accordian .Slice {
+        height: 0px;
+        padding-left: calc(50vw - 250px);
+        padding-right: calc(50vw - 250px);
+        overflow-y: auto;
+        border-bottom: 4px solid #666;
+    }
+
+    .Accordian .Slice p {
+        text-indent: 25px;
+    }
+
+    .Accordian .Slice p:not(:last-child) {
+        margin-bottom: 10px;
+    }
