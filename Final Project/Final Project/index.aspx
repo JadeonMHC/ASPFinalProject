@@ -36,6 +36,14 @@
         <div id="gphHolder">
             <canvas id="gphMain"></canvas>
             <canvas id="gphOverlay"></canvas>
+            <div id="gphLabel">
+                <div class="ColBox" style="background: green;"></div>
+                <div id="lblKMH" class="Label">Km/H</div>
+                <div class="ColBox" style="background: red;"></div>
+                <div id="lblRPM" class="Label">RPM</div>
+                <div class="ColBox" style="background: black;"></div>
+                <div id="lblFEF" class="Label">Fuel Economy</div>
+            </div>
         </div>
     </div>
 </asp:Content>

@@ -1,13 +1,24 @@
 ﻿'use strict'
 
-var liveaddr = "";
+var liveaddr = null;
+var livetimer = null;
 var adb;
 
 $(document).ready(function () {
     GetDBNames();
 
-    /*$($("#gphHolder canvas")[0]).width('500px');
-    $($("#gphHolder canvas")[1]).width('500px');*/
+    $("#gphLabel .ColBox").on('click', function () {
+        var index = $(this).index() / 2;
+        show[index] = !show[index];
+
+        DrawGraph(adb);
+    });
+
+    $("#gphHolder canvas").mouseout(function () {
+        var gphcan = $("#gphOverlay");
+        var ct = gphcan[0].getContext("2d");
+        ct.clearRect(0, 0, $(this).width(), $(this).height());
+    });
 
     $("#gphHolder canvas").mousemove(function (event) {
         if (ctx) {
@@ -15,8 +26,6 @@ $(document).ready(function () {
 
             var x = event.pageX - offset.left;
             var y = (event.pageY - offset.top);
-
-            //DrawGraph(adb);
 
             var gphcan = $("#gphOverlay");
             var ct = gphcan[0].getContext("2d");
@@ -41,26 +50,66 @@ $(document).ready(function () {
         }
     });
 
+    $("#gphOverlay").on('click', function (event) {
+        if (ctx) {
+            var offset = $(this).offset();
+            var x = event.pageX - offset.left;
+
+            x /= $(this).width();
+            
+            x -= 0.15 * 0.5;
+            x /= 0.85;
+
+            console.log(x);
+        }
+    });
+
     $("#btnLive").on("click", function () {
-        liveaddr = $("#txtLiveAddr").val();
-        
-        setInterval(function () {
-            $.post('/CarData.aspx', { addr: liveaddr, car: 2 }, function (data) {
-                var sp = data.split(',');
+        var gphcan = $("#gphMain");
+        var ct = gphcan[0].getContext("2d");
+        ct.clearRect(0, 0, gphcan.width(), gphcan.height());
 
-                $("#txtCurr").html('<div>' + sp[0] + '</div><div>' + parseFloat(sp[1]) + '</div><div>' + parseFloat(sp[2]) + '</div>');
+        gphcan = $("#gphOverlay");
+        ct = gphcan[0].getContext("2d");
+        ct.clearRect(0, 0, gphcan.width(), gphcan.height());
 
-                map.removeMarkers();
-                map.addMarker({
-                    lat: parseFloat(sp[1]),
-                    lng: parseFloat(sp[2]),
-                    title: 'Starting Location',
-                    click: function (e) { }
+        if (livetimer == null) {
+            $("#btnLive").val("Disconnect");
+            liveaddr = $("#txtLiveAddr").val();
+
+            map.removeMarkers();
+            map.cleanRoute();
+
+            livetimer = setInterval(function () {
+                $.post('/CarData.aspx', { addr: liveaddr, car: 2 }, function (data) {
+                    var sp = data.split(',');
+
+                    $("#txtCurr").html('<div>' + sp[0] + '</div><div>' + parseFloat(sp[1]) + '</div><div>' + parseFloat(sp[2]) + '</div>');
+                    
+                    map.removeMarkers();
+                    map.addMarker({
+                        lat: parseFloat(sp[1]),
+                        lng: parseFloat(sp[2]),
+                        title: 'Starting Location',
+                        click: function (e) { }
+                    });
                 });
-            });
-        }, 500);
+            }, 500);
+        }
+        else {
+            CancelLive();
+        }
     });
 });
+
+function CancelLive() {
+    if (livetimer != null)
+        clearInterval(livetimer);
+
+    livetimer = null;
+    $("#btnLive").val("Connect");
+    map.removeMarkers();
+}
 
 function GetDBNames() {
     var dbl = $("#pnlFiles");
@@ -77,14 +126,28 @@ function GetDBNames() {
     });
 }
 
+function CalcFuelEcon(speed, maf)
+{
+    var econ = maf * 0.00325267;
+    if (econ > 0)
+        econ = speed / econ;
+    if (econ > 0)
+        econ = 100 / econ;
+
+    return econ;
+}
+
 function DBSelected() {
     var name = $(this).text();
+
+    CancelLive();
+    show = [true, true, true];
 
     $.post("/DBData.aspx", { action: 'get_db', name: name }, function (data) {
         var db = {
             points: [],
             fuel: [],
-            cut: []
+            max: [0, 0, 0]
         };
 
         var raw = [];
@@ -111,15 +174,22 @@ function DBSelected() {
                         pts[i] = "0";
                 }
 
+                var speed = parseFloat(pts[1]);
+                var rpm = parseFloat(pts[2]);
+                var maf = parseFloat(pts[3]);
+
+                var fef = CalcFuelEcon(speed, maf);
+
+                db.max[0] = Math.max(db.max[0], speed);
+                db.max[1] = Math.max(db.max[1], rpm);
+                db.max[2] = Math.max(db.max[2], fef);
+
                 db.fuel.push([
                     ParseTime(item[1]),
-                    parseFloat(pts[1]),
-                    parseFloat(pts[2]),
-                    parseFloat(pts[3])
+                    speed,
+                    rpm,
+                    fef
                 ]);
-            }
-            else {
-                db.cut.push(item);
             }
         });
 

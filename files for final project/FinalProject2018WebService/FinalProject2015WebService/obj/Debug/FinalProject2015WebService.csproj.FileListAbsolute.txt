@@ -59,3 +59,10 @@ C:\Users\School\Documents\GitHub\ASPFinalProject\files for final project\FinalPr
 C:\Users\School\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\obj\Debug\FinalProject2015WebService.csproj.CoreCompileInputs.cache
 C:\Users\School\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\obj\Debug\FinalProject2015WebService.dll
 C:\Users\School\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\obj\Debug\FinalProject2015WebService.pdb
+C:\Users\jadeon.sheppard\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\bin\FinalProject2015WebService.dll.config
+C:\Users\jadeon.sheppard\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\bin\FinalProject2015WebService.dll
+C:\Users\jadeon.sheppard\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\bin\FinalProject2015WebService.pdb
+C:\Users\jadeon.sheppard\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\obj\Debug\FinalProject2015WebService.csprojResolveAssemblyReference.cache
+C:\Users\jadeon.sheppard\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\obj\Debug\FinalProject2015WebService.csproj.CoreCompileInputs.cache
+C:\Users\jadeon.sheppard\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\obj\Debug\FinalProject2015WebService.dll
+C:\Users\jadeon.sheppard\Documents\GitHub\ASPFinalProject\files for final project\FinalProject2018WebService\FinalProject2015WebService\obj\Debug\FinalProject2015WebService.pdb
