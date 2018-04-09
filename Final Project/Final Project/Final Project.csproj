@@ -79,6 +79,7 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <Content Include="about.aspx" />
+    <Content Include="css\accordian.css" />
     <Content Include="help.aspx" />
     <None Include="Connected Services\GPSData\GPS_Data.disco" />
     <None Include="Connected Services\GPSData\configuration91.svcinfo" />
@@ -92,9 +93,11 @@
     <Content Include="favicon-16x16.png" />
     <Content Include="favicon-32x32.png" />
     <Content Include="favicon.ico" />
+    <Content Include="img\Jadeon.jpg" />
     <Content Include="img\PinBike.png" />
     <Content Include="img\PinCorv.png" />
     <Content Include="img\PinTruck.png" />
+    <Content Include="js\accordian.js" />
     <Content Include="js\graph.js" />
     <Content Include="Main.Master" />
     <Content Include="mstile-150x150.png" />
